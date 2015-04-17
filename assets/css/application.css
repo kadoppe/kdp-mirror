@@ -1,0 +1,40 @@
+/*
+ *= require "bootstrap/dist/css/bootstrap.css"
+ */
+
+body {
+  background-color: #222930;
+  color: #4EB1BA;
+
+}
+
+#catch {
+  font-size: 100px;
+  font-weight: bold;
+
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+
+  width: auto;
+  min-width: 100%;
+
+  text-align: center;
+}
+
+#mirror {
+  position: fixed;
+
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+
+  height: auto;
+  width: auto;
+
+  min-height: 100%;
+  min-width: 100%;
+
+  transform: scaleX(-1);
+}
