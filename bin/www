@@ -6,8 +6,8 @@ require('coffee-script/register');
  * Module dependencies.
  */
 
-var app = require('../app');
-var debug = require('debug')('mouse-stalker:server');
+var app = require('../server');
+var debug = require('debug')('mirror:server');
 var http = require('http');
 
 /**

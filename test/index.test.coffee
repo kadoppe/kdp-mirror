@@ -1,5 +1,5 @@
 request = require('supertest')
-app = require('../app');
+app = require('../server');
 
 describe 'Index Page', ->
   it 'renders successfully', (done) ->
